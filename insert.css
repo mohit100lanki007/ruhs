@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    color: #000000;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Form Heading */
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Form Container */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    text-align: left;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #000000;
+    text-align: center;
+    border-radius: 10px;
+}
+
+th {
+    background: #eeebeb70;
+    color: #000000;
+    font-weight: bold;
+}
+#col1{
+    width: 8%;
+}
+#col2{
+    width: 25%;
+}
+#col3{
+    width: 5%;
+}
+
+/* Input Fields */
+input {
+    width: 80%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    text-align: center;
+}
+
+input:focus {
+    background: rgba(255, 255, 255, 0.3);
+    color: #000;
+    font-weight: bold;
+}
+
+/* Stylish Button */
+.button-container{
+    text-align: center;
+}
+button.style {
+    background: #27ae60;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button.style:hover {
+    background: #2ecc71;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 6px;
+    }
+
+    input {
+        font-size: 12px;
+    }
+
+    button.style {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+}
